@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "@ngui/map": {
+    "peregrinedev/map": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -89,7 +89,7 @@
         }
       }
     },
-    "@ngui/map-e2e": {
+    "peregrinedev/map-e2e": {
       "root": "",
       "sourceRoot": "",
       "projectType": "application",
@@ -115,7 +115,7 @@
       }
     }
   },
-  "defaultProject": "@ngui/map",
+  "defaultProject": "peregrinedev/map",
   "schematics": {
     "@schematics/angular:class": {
       "spec": false
