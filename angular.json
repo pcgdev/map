@@ -46,18 +46,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "@ngui/map:build"
+            "browserTarget": "peregrinedev/map:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "@ngui/map:build:production"
+              "browserTarget": "peregrinedev/map:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "@ngui/map:build"
+            "browserTarget": "peregrinedev/map:build"
           }
         },
         "test": {
@@ -98,7 +98,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "@ngui/map:serve"
+            "devServerTarget": "peregrinedev/map:serve"
           }
         },
         "lint": {
