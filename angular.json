@@ -46,18 +46,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "peregrinedev/map:build"
+            "browserTarget": "peregrinedev-map:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "peregrinedev/map:build:production"
+              "browserTarget": "peregrinedev-map:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "peregrinedev/map:build"
+            "browserTarget": "peregrinedev-map:build"
           }
         },
         "test": {
@@ -89,7 +89,7 @@
         }
       }
     },
-    "peregrinedev/map-e2e": {
+    "peregrinedev-map-e2e": {
       "root": "",
       "sourceRoot": "",
       "projectType": "application",
@@ -98,7 +98,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "peregrinedev/map:serve"
+            "devServerTarget": "peregrinedev-map:serve"
           }
         },
         "lint": {
@@ -115,7 +115,7 @@
       }
     }
   },
-  "defaultProject": "peregrinedev/map",
+  "defaultProject": "peregrinedev-map",
   "schematics": {
     "@schematics/angular:class": {
       "spec": false
